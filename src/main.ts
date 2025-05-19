@@ -14,11 +14,12 @@ async function bootstrap() {
 
   app.useGlobalPipes(new ValidationPipe());
 
-  app.useStaticAssets(join(__dirname, '..', 'uploads'), {
-    prefix: '/uploads/',
-  });
+  // app.useStaticAssets(join(__dirname, '..', 'uploads'), {
+  //   prefix: '/uploads/',
+  // });
 
   const port = process.env.PORT || 3000;
+  console.log('About to listen on port', port);
   await app.listen(port);
   console.log(`Application is running on: http://localhost:${port}`);
 }
