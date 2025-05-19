@@ -20,12 +20,12 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@nestjs/cli": "^11.0.7",
     "@nestjs/common": "^11.1.1",
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.1.1",
     "@nestjs/platform-express": "^11.1.1",
     "@nestjs/typeorm": "^11.0.0",
-    "@nestjs/cli": "^11.0.7",
     "@types/aws-lambda": "^8.10.149",
     "aws-serverless-express": "^3.4.0",
     "class-transformer": "^0.5.1",
