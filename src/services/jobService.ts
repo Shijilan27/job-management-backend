@@ -1,0 +1,1 @@
+const API_URL = 'https://job-management-backend-f1lf.onrender.com/jobs'; 
